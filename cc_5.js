@@ -28,3 +28,11 @@ cartItems.unshift("Table"); // adding an item to the front of the array
 cartItems.shift(); // removing the first item of the array
 
 console.log(`Final Array: ${cartItems}`); // logging the final array of products
+
+
+// Task 4 - Price Adjustments //
+let prices = [100, 200, 300];
+console.log(`Prices: ${prices}`);
+
+let discountedPrices = prices.map(price => price * .90);
+console.log(`Discounted Prices: ${discountedPrices}`);
