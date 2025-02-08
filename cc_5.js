@@ -17,3 +17,14 @@ let order = { orderId: 12345, totalAmount: 150, status: "Processing", // declare
 };
 
 order.displayOrder(); // calling the method
+
+
+// Task 3 - Shopping Cart //
+let cartItems = ["Laptop", "Dress", "Toy"];
+
+cartItems.push("PS5");
+cartItems.pop();
+cartItems.unshift("Table");
+cartItems.shift();
+
+console.log(`Final Array: ${cartItems}`);
