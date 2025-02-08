@@ -39,7 +39,7 @@ console.log(`Discounted Prices: ${discountedPrices}`); // logging the discounted
 
 
 // Task 5 - Product Availability //
-let inventory = [5, 0, 12, 8, 0];
-let inStock = inventory.filter(inventory => inventory > 0);
+let inventory = [5, 0, 12, 8, 0]; // declaring an array with different inventories
+let inStock = inventory.filter(inventory => inventory > 0); // filtering any inventories with ZERO stock
 
-console.log(`Inventory in Stock: ${inStock}`);
+console.log(`Inventory in Stock: ${inStock}`); // logging the filtered array with in stock inventory
