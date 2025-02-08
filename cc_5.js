@@ -31,8 +31,8 @@ console.log(`Final Array: ${cartItems}`); // logging the final array of products
 
 
 // Task 4 - Price Adjustments //
-let prices = [100, 200, 300];
-console.log(`Prices: ${prices}`);
+let prices = [100, 200, 300]; // declaring an array with prices
+console.log(`Prices: ${prices}`); // logging the initial array
 
-let discountedPrices = prices.map(price => price * .90);
-console.log(`Discounted Prices: ${discountedPrices}`);
+let discountedPrices = prices.map(price => price * .90); // applying a 10% discount to the prices
+console.log(`Discounted Prices: ${discountedPrices}`); // logging the discounted prices
