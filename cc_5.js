@@ -7,13 +7,13 @@ console.log(`Customer Email: ${customer.email}`); // logging the customer email 
 
 
 // Task 2 - Order Details //
-let order = { orderId: 12345, totalAmount: 150, status: "Processing",
+let order = { orderId: 12345, totalAmount: 150, status: "Processing", // declared an array with order details
     
-    displayOrder() {
-        console.log(`Order ID: ${this.orderId}`);
-        console.log(`Total Amount: ${this.totalAmount}`);
-        console.log(`Status: ${this.status}`);
+    displayOrder() { // starting the use of a method
+        console.log(`Order ID: ${this.orderId}`); // logging the order ID
+        console.log(`Total Amount: ${this.totalAmount}`); // logging the total amount
+        console.log(`Status: ${this.status}`); // logging the status
     }
 };
 
-order.displayOrder();
+order.displayOrder(); // calling the method
