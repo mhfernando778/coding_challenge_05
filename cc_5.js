@@ -36,3 +36,10 @@ console.log(`Prices: ${prices}`); // logging the initial array
 
 let discountedPrices = prices.map(price => price * .90); // applying a 10% discount to the prices
 console.log(`Discounted Prices: ${discountedPrices}`); // logging the discounted prices
+
+
+// Task 5 - Product Availability //
+let inventory = [5, 0, 12, 8, 0];
+let inStock = inventory.filter(inventory => inventory > 0);
+
+console.log(`Inventory in Stock: ${inStock}`);
