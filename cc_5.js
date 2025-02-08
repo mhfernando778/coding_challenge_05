@@ -20,11 +20,11 @@ order.displayOrder(); // calling the method
 
 
 // Task 3 - Shopping Cart //
-let cartItems = ["Laptop", "Dress", "Toy"];
+let cartItems = ["Laptop", "Dress", "Toy"]; // declaring an array with three product names
 
-cartItems.push("PS5");
-cartItems.pop();
-cartItems.unshift("Table");
-cartItems.shift();
+cartItems.push("PS5"); // adding PS5 to the array
+cartItems.pop(); // removing the last item of the array
+cartItems.unshift("Table"); // adding an item to the front of the array
+cartItems.shift(); // removing the first item of the array
 
-console.log(`Final Array: ${cartItems}`);
+console.log(`Final Array: ${cartItems}`); // logging the final array of products
