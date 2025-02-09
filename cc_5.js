@@ -69,9 +69,9 @@ console.log(`Calcualted Tax: $${calculateTax(100, .07)}`); // logging the calcul
 
 
 // Task 9 - Discount Applications //
-const applyDiscount = function(price, discount) {
-    let discountedPrice = Math.floor( price - (price * discount));
-    return discountedPrice;
+const applyDiscount = function(price, discount) { // starting a function to calculate an applied discount
+    let discountedPrice = Math.floor( price - (price * discount)); // stating the math that will be done
+    return discountedPrice; // telling it ti return the discounted price
 }
 
-console.log(`Discounted Price: $${applyDiscount(100, .10)}`);
+console.log(`Discounted Price: $${applyDiscount(100, .10)}`); // logging the discounted price to console
