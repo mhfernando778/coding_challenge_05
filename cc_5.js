@@ -50,3 +50,10 @@ let sales = [500, 300, 200, 400]; // declared an array with 4 sales numbers
 let totalRevenue = sales.reduce((sum, sales) => sum + sales, 0); // added all the sales together to get revenue
 
 console.log(`Total Revenue: $${totalRevenue}`); // logged the total revenue
+
+
+// Task 7 - Customer Search //
+let customers = ["Alice", "Bob", "Charlie", "David"];
+let customerFound = customers.find(customer => customer === "Charlie");
+
+console.log(`Customer Found: ${customerFound}`);
