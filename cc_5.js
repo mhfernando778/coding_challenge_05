@@ -53,7 +53,7 @@ console.log(`Total Revenue: $${totalRevenue}`); // logged the total revenue
 
 
 // Task 7 - Customer Search //
-let customers = ["Alice", "Bob", "Charlie", "David"];
-let customerFound = customers.find(customer => customer === "Charlie");
+let customers = ["Alice", "Bob", "Charlie", "David"]; // declaring an array with employee names
+let customerFound = customers.find(customer => customer === "Charlie"); // using find method to look for Charlie
 
-console.log(`Customer Found: ${customerFound}`);
+console.log(`Customer Found: ${customerFound}`); // logging the results found
