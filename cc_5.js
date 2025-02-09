@@ -43,3 +43,10 @@ let inventory = [5, 0, 12, 8, 0]; // declaring an array with different inventori
 let inStock = inventory.filter(inventory => inventory > 0); // filtering any inventories with ZERO stock
 
 console.log(`Inventory in Stock: ${inStock}`); // logging the filtered array with in stock inventory
+
+
+// Task 6 - Revenue Calculations //
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce((sum, sales) => sum + sales, 0);
+
+console.log(`Total Revenue: $${totalRevenue}`);
