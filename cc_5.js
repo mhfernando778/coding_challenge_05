@@ -60,9 +60,9 @@ console.log(`Customer Found: ${customerFound}`); // logging the results found
 
 
 // Task 8 - Tax Calculation //
-function calculateTax(amount, taxRate) {
-    let tax = Math.floor(amount * taxRate);
-    return tax;
+function calculateTax(amount, taxRate) { // starting a function to calculate tax
+    let tax = Math.floor(amount * taxRate); // stating the what math the function will do
+    return tax; // returning the calculated results
 };
 
-console.log(`Calcualted Tax: $${calculateTax(100, .07)}`);
+console.log(`Calcualted Tax: $${calculateTax(100, .07)}`); // logging the calculated tax
