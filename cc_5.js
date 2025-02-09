@@ -66,3 +66,12 @@ function calculateTax(amount, taxRate) { // starting a function to calculate tax
 };
 
 console.log(`Calcualted Tax: $${calculateTax(100, .07)}`); // logging the calculated tax
+
+
+// Task 9 - Discount Applications //
+const applyDiscount = function(price, discount) {
+    let discountedPrice = Math.floor( price - (price * discount));
+    return discountedPrice;
+}
+
+console.log(`Discounted Price: $${applyDiscount(100, .10)}`);
