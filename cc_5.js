@@ -57,3 +57,12 @@ let customers = ["Alice", "Bob", "Charlie", "David"]; // declaring an array with
 let customerFound = customers.find(customer => customer === "Charlie"); // using find method to look for Charlie
 
 console.log(`Customer Found: ${customerFound}`); // logging the results found
+
+
+// Task 8 - Tax Calculation //
+function calculateTax(amount, taxRate) {
+    let tax = Math.floor(amount * taxRate);
+    return tax;
+};
+
+console.log(`Calcualted Tax: $${calculateTax(100, .07)}`);
