@@ -46,7 +46,7 @@ console.log(`Inventory in Stock: ${inStock}`); // logging the filtered array wit
 
 
 // Task 6 - Revenue Calculations //
-let sales = [500, 300, 200, 400];
-let totalRevenue = sales.reduce((sum, sales) => sum + sales, 0);
+let sales = [500, 300, 200, 400]; // declared an array with 4 sales numbers
+let totalRevenue = sales.reduce((sum, sales) => sum + sales, 0); // added all the sales together to get revenue
 
-console.log(`Total Revenue: $${totalRevenue}`);
+console.log(`Total Revenue: $${totalRevenue}`); // logged the total revenue
